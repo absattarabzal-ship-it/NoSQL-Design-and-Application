@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebea4"
+  },
+  "transactionId": 1001,
+  "accountFrom": "KZ12345678901",
+  "type": "transfer",
+  "amount": 150000,
+  "riskScore": 15,
+  "tags": [
+    "mobile_app",
+    "trusted",
+    "reviewed",
+    "reviewed",
+    "reviewed"
+  ],
+  "device": {
+    "type": "smartphone",
+    "city": "Almaty"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebea5"
+  },
+  "transactionId": 1002,
+  "accountFrom": "KZ98765432102",
+  "type": "withdrawal",
+  "amount": 500000,
+  "riskScore": 85,
+  "tags": [
+    "atm",
+    "night_time"
+  ],
+  "device": {
+    "type": "atm_terminal",
+    "city": "Astana"
+  },
+  "status": "BLOCKED"
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebea6"
+  },
+  "transactionId": 1003,
+  "accountFrom": "KZ45678901203",
+  "type": "payment",
+  "amount": 25000,
+  "riskScore": 5,
+  "tags": [
+    "online_store"
+  ],
+  "device": {
+    "type": "laptop",
+    "city": "Almaty"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebea7"
+  },
+  "transactionId": 1004,
+  "accountFrom": "KZ11223344504",
+  "type": "transfer",
+  "amount": 1200000,
+  "riskScore": 92,
+  "tags": [
+    "high_amount",
+    "new_device"
+  ],
+  "device": {
+    "type": "smartphone",
+    "city": "Shymkent"
+  },
+  "status": "BLOCKED"
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebea9"
+  },
+  "transactionId": 1006,
+  "accountFrom": "KZ99887766506",
+  "type": "transfer",
+  "amount": 450000,
+  "riskScore": 65,
+  "tags": [
+    "cross_border"
+  ],
+  "device": {
+    "type": "tablet",
+    "city": "Almaty"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebeaa"
+  },
+  "transactionId": 1007,
+  "accountFrom": "KZ33445566707",
+  "type": "crypto_buy",
+  "amount": 800000,
+  "riskScore": 78,
+  "tags": [
+    "high_risk_merchant"
+  ],
+  "device": {
+    "type": "laptop",
+    "city": "Astana"
+  },
+  "status": "BLOCKED"
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebeab"
+  },
+  "transactionId": 1008,
+  "accountFrom": "KZ77889900108",
+  "type": "payment",
+  "amount": 4500,
+  "riskScore": 2,
+  "tags": [
+    "grocery"
+  ],
+  "device": {
+    "type": "pos_terminal",
+    "city": "Aktobe"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebeac"
+  },
+  "transactionId": 1009,
+  "accountFrom": "KZ22334455609",
+  "type": "withdrawal",
+  "amount": 200000,
+  "riskScore": 40,
+  "tags": [
+    "atm"
+  ],
+  "device": {
+    "type": "atm_terminal",
+    "city": "Almaty"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a9e73cdb502659422cebead"
+  },
+  "transactionId": 1010,
+  "accountFrom": "KZ66778899010",
+  "type": "transfer",
+  "amount": 35000,
+  "riskScore": 10,
+  "tags": [
+    "mobile_app"
+  ],
+  "device": {
+    "type": "smartphone",
+    "city": "Pavlodar"
+  }
+}]
