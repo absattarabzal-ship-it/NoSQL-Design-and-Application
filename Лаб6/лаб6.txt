@@ -1,0 +1,20 @@
+HSET booking:6c449330 user_id "user_001" resource_id "room_A" booking_date "2026-10-15" start_time "10:00:00" status "ACTIVE"
+
+HGETALL booking:6c449330
+
+ZADD user:user_001:bookings 202610151000 "6c449330"
+ZADD user:user_001:bookings 202610161400 "7d55a440"
+
+ZRANGE user:user_001:bookings 0 -1 WITHSCORES
+
+ZADD resource:room_A:2026-10-15 1000 "6c449330"
+ZRANGE resource:room_A:2026-10-15 0 -1 WITHSCORES
+
+SADD user:user_001:active_bookings "6c449330"
+SMEMBERS user:user_001:active_bookings
+
+HSET booking:6c449330 status "COMPLETED"
+
+HDEL booking:6c449330 status
+ZREM user:user_001:bookings "6c449330"
+SREM user:user_001:active_bookings "6c449330"
