@@ -1,0 +1,10 @@
+﻿rs1/
+rs2/
+rs3/
+*.wt
+*.lock
+journal/
+diagnostic.data/
+mongod.log
+*.tmp
+Thumbs.db
